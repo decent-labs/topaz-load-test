@@ -5,5 +5,10 @@
   "main": "index.js",
   "repository": "https://github.com/decentorganization/topaz-load-test",
   "author": "Adam Gall <adam@decentlabs.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "topaz": "^0.1.2"
+  }
 }
