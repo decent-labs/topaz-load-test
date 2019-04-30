@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "script for load testing topaz",
   "main": "index.js",
+  "scripts": {
+    "start": "node -e 'require(\"./index\")()'"
+  },
   "repository": "https://github.com/decentorganization/topaz-load-test",
   "author": "Adam Gall <adam@decentlabs.io>",
   "license": "MIT",
