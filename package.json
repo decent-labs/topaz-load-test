@@ -1,0 +1,9 @@
+{
+  "name": "topaz-load-test",
+  "version": "0.1.0",
+  "description": "script for load testing topaz",
+  "main": "index.js",
+  "repository": "https://github.com/decentorganization/topaz-load-test",
+  "author": "Adam Gall <adam@decentlabs.io>",
+  "license": "MIT"
+}
