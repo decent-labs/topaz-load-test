@@ -14,7 +14,7 @@ const start = () => {
 };
 
 const loop = (apis, chunkSize) => {
-  return makeHashes(apis, chunkSize).then(_ => loop(apis, chunkSize));
+  return makeHashes(apis, chunkSize).then(_ => loop(apis, chunkSize)).catch(console.log);
 };
 
 module.exports = start;
