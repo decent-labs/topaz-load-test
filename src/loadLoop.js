@@ -1,4 +1,5 @@
 require('dotenv').config();
+require('dns-cache')();
 
 const makeApps = require('./make/apps');
 const makeHashes = require('./make/hashes');
