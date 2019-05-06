@@ -1,4 +1,5 @@
 require('dotenv').config();
+require('dns-cache')();
 
 const makeApps = require('./make/apps');
 const makeHashes = require('./make/hashes');
@@ -13,7 +14,7 @@ const start = () => {
 };
 
 const loop = (apis, chunkSize) => {
-  return makeHashes(apis, chunkSize).then(_ => loop(apis, chunkSize));
+  return makeHashes(apis, chunkSize).then(_ => loop(apis, chunkSize)).catch(console.log);
 };
 
 module.exports = start;

@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
+    "dns-cache": "^2.0.0",
     "dotenv": "^7.0.0",
     "topaz": "^0.1.2"
   }

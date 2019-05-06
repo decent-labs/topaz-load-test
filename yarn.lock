@@ -65,6 +65,11 @@ delayed-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
+dns-cache@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/dns-cache/-/dns-cache-2.0.0.tgz#18a1ae164aebc31d7dc7ce0f3e713eef8e440346"
+  integrity sha1-GKGuFkrrwx19x84PPnE+745EA0Y=
+
 dotenv@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-7.0.0.tgz#a2be3cd52736673206e8a85fb5210eea29628e7c"
